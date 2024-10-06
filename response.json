@@ -1,0 +1,52 @@
+{
+    "id": "chatcmpl-AFBG6bSs0R4bFVTLxbGUeP7Bx6vww",
+    "choices": [
+        {
+            "finish_reason": "length",
+            "index": 0,
+            "logprobs": {
+                "content": [
+                    {
+                        "token": "Positive",
+                        "logprob": -0.20231643,
+                        "top_logprobs": [
+                            {
+                                "token": "Positive",
+                                "logprob": -0.20231643
+                            },
+                            {
+                                "token": "Negative",
+                                "logprob": -1.7023164
+                            },
+                            {
+                                "token": "Neutral",
+                                "logprob": -7.0773163
+                            },
+                            {
+                                "token": "Mixed",
+                                "logprob": -10.327316
+                            },
+                            {
+                                "token": "\"",
+                                "logprob": -10.827316
+                            }
+                        ]
+                    }
+                ]
+            },
+            "message": {
+                "content": "Positive",
+                "role": "assistant"
+            }
+        }
+    ],
+    "created": 1728181562,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "system_fingerprint": "fp_2f406b9113",
+    "usage": {
+        "completion_tokens": 1,
+        "prompt_tokens": 93,
+        "total_tokens": 94
+    }
+}
